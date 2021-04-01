@@ -36,7 +36,7 @@ if(!(get-item $output)){
 }
 
 if(!(get-process -name bedrock_server)){
-    Start-Process "bedrock_server.bat"
+    Start-Process "bedrock_server.exe"
 }
 
 exit
